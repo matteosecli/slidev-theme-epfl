@@ -30,11 +30,11 @@ const props = defineProps({
   image: String,
   imageLight: {
     type: String,
-    default: '../assets/backgrounds/epfl-aerial-view-1.jpg',
+    default: '/public/backgrounds/epfl-aerial-view-1.jpg',
   },
   imageDark: {
     type: String,
-    default: '../assets/backgrounds/epfl-rlc-night-view-2.jpg',
+    default: '/public/backgrounds/epfl-rlc-night-view-2.jpg',
   },
 })
 

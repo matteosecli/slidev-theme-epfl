@@ -2,9 +2,9 @@
 theme: ./  # Use the theme in the current directory
 layout: cover
 title: "An EPFL Theme for Slidev"
-# image: '../assets/backgrounds/epfl-aerial-view-2.jpg'
-# image-light: '../assets/backgrounds/epfl-aerial-view-2.jpg'
-# image-dark: '../assets/backgrounds/epfl-rlc-night-view-1.jpg'
+# image: './theme/backgrounds/epfl-aerial-view-2.jpg'
+# image-light: './theme/backgrounds/epfl-aerial-view-2.jpg'
+# image-dark: './theme/backgrounds/epfl-rlc-night-view-1.jpg'
 author: "Matteo Seclì"
 affiliation: "LTPN"
 # date: "Jun 11, 2025"
@@ -30,7 +30,7 @@ transition: slide-up
 ---
 layout: section
 color: --epfl-rouge
-image: './assets/backgrounds/epfl-pedestrians.jpg'
+image: '/theme/backgrounds/epfl-pedestrians.jpg'
 transition: slide-up
 ---
 
@@ -124,7 +124,7 @@ color: --epfl-canard
 ---
 layout: section
 color: --epfl-leman
-image: './assets/backgrounds/epfl-cleanroom.jpg'
+image: '/theme/backgrounds/epfl-cleanroom.jpg'
 transition: slide-up
 ---
 
@@ -166,7 +166,7 @@ And say more stuff afterwards
 ---
 layout: section
 color: --epfl-canard
-image: './assets/backgrounds/epfl-cleanroom.jpg'
+image: '/theme/backgrounds/epfl-cleanroom.jpg'
 transition: slide-up
 ---
 
@@ -201,7 +201,7 @@ Try to click (using the code below:)
 ---
 layout: image
 class: bg-cover bg-center bg-no-repeat
-style: "background-image: url('./assets/backgrounds/epfl-logo-statue.jpg')"
+style: "background-image: url('/theme/backgrounds/epfl-logo-statue.jpg')"
 ---
 
 <!-- No nned to put anything here -->
@@ -209,7 +209,7 @@ style: "background-image: url('./assets/backgrounds/epfl-logo-statue.jpg')"
 ---
 layout: section
 color: --epfl-taupe
-image: './assets/backgrounds/epfl-blackboard.jpg'
+image: '/theme/backgrounds/epfl-blackboard.jpg'
 transition: slide-up
 ---
 

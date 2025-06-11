@@ -1,6 +1,6 @@
 # slidev-theme-epfl
 
-[![NPM version](https://img.shields.io/npm/v/slidev-theme-epfl?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-epfl)
+<!-- [![NPM version](https://img.shields.io/npm/v/slidev-theme-epfl?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-epfl) -->
 
 An EPFL theme for [Slidev](https://github.com/slidevjs/slidev).
 
@@ -13,21 +13,23 @@ An EPFL theme for [Slidev](https://github.com/slidevjs/slidev).
   run `npm run dev` to check out the slides for more details of how to start writing a theme
 -->
 
-<!--
-  Put some screenshots here to demonstrate your theme
 
-  Live demo: [...]
--->
+  <!-- Put some screenshots here to demonstrate your theme -->
+
+  Live demo: [click here](https://lucent-peony-8634db.netlify.app).
+
 
 ## Install
 
-Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
-
-<pre><code>---
-theme: <b>epfl</b>
----</code></pre>
-
-Learn more about [how to use a theme](https://sli.dev/guide/theme-addon#use-theme).
+> TODO:
+> 
+> Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
+> 
+> <pre><code>---
+> theme: <b>epfl</b>
+> ---</code></pre>
+> 
+> Learn more about [how to use a theme](https://sli.dev/guide/theme-addon#use-theme).
 
 ## Layouts
 
