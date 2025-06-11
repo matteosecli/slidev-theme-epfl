@@ -16,7 +16,7 @@ An EPFL theme for [Slidev](https://github.com/slidevjs/slidev).
 
   <!-- Put some screenshots here to demonstrate your theme -->
 
-  Live demo: [click here](https://lucent-peony-8634db.netlify.app).
+  Live demo: [click here](slidev-theme-epfl.netlify.app).
 
 
 ## Install

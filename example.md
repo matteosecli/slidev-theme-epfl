@@ -166,7 +166,7 @@ And say more stuff afterwards
 ---
 layout: section
 color: --epfl-canard
-image: '/theme/backgrounds/epfl-cleanroom.jpg'
+image: '/theme/backgrounds/epfl-aerial-view-3.jpg'
 transition: slide-up
 ---
 
