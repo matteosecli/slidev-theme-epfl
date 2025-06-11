@@ -36,6 +36,7 @@
   @apply mt-4 mb-4;
 }
 
+/* Unordered and ordered list blocks after h2 headers */
 .slidev-layout h2 + ul,
 .slidev-layout h2 + ol {
   @apply pt-8;
@@ -46,8 +47,15 @@
 .slidev-layout ol li {
   color: var(--epfl-text-color);
   font-family: var(--epfl-main-font);
-  @apply text-2xl mb-2 mt-0.1;
-  line-height: 1.1;
+  @apply mb-2 mt-0.1;
+  line-height: 1.0;
+}
+
+/* Unordered and ordered list items after h2 headers */
+.slidev-layout h2 + ul li,
+.slidev-layout h2 + ol li {
+  @apply text-2xl;
+  line-height: 1.1 !important;
 }
 
 /* Click transitions */
