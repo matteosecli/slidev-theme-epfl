@@ -1,0 +1,66 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap');
+
+:root {
+  /* Formal colors */
+  --epfl-swiss-red: #ff0000;   /* Swiss Red */
+  --epfl-rouge: #e30613;       /* Rouge | note: as per pptx template, but guidelines define #ff0000 (DeltaE = 6.43) | Pantone 485C should be #d81e05 according to their official site, #da281b according to their palette file, or #da291c according to a converter */
+  --epfl-groseille: #b51f1f;   /* Groseille */
+  --epfl-leman: #00a79f;       /* Léman */
+  --epfl-canard: #007480;      /* Canard */
+  --epfl-taupe: #413d3a;       /* Taupe | note: the pptx template uses #413c3a, but DeltaE is 1.06 */
+  --epfl-perle: #cac7c7;       /* Perle */
+
+  /* Casual colors */
+  --epfl-mont-rose: #f39869;   /* Mont Rose */
+  --epfl-vert-eau: #c2ddb0;    /* Vert d’Eau */
+  --epfl-rose: #ed6e9c;        /* Rose */
+  --epfl-acier: #4f8fcc;       /* Acier */
+  --epfl-soufre: #fbee66;      /* Soufre */
+  --epfl-carotte: #ec6608;     /* Carotte */
+  --epfl-zinzolin: #5c2483;    /* Zinzolin */
+  --epfl-chartreuse: #c8d300;  /* Chartreuse */
+  --epfl-marron: #5b3428;      /* Marron */
+  --epfl-ardoise: #453a4c;     /* Ardoise */
+
+  /* Fonts */
+  --epfl-main-font: Arial, sans-serif;               /* Body */
+  /*--epfl-heading-font: 'Libre Franklin', sans-serif;*/ /* Titles */
+  --epfl-heading-font: 'Oswald', sans-serif;         /* Titles */
+}
+
+/* Set the default font */
+#page-root {
+  font-family: var(--epfl-main-font);
+  /* font-weight: 400; */
+}
+
+/* Define main light-dark colors */
+:root {
+  --epfl-main-color-dark: var(--epfl-taupe);
+  --epfl-main-color-light: white;
+}
+
+/* Define the default colors for light mode */
+:root {              
+  --epfl-text-color: var(--epfl-main-color-dark); /* Default for light mode */
+  --epfl-bg-color: var(--epfl-main-color-light);  /* Default for light mode */    
+}
+
+/* Define the colors for dark mode */
+html.dark {
+  --epfl-text-color: var(--epfl-main-color-light); /* Override for dark mode */
+  --epfl-bg-color: var(--epfl-main-color-dark);    /* Override for dark mode */
+}
+
+/* Adaptive light/dark layout */
+.slidev-layout {
+  color: var(--epfl-text-color);                   /* Text color */
+  background-color: var(--epfl-bg-color);          /* Background color */
+}
+
+/* Unordered and ordered lists (markers) */
+.slidev-layout ul li::marker,
+.slidev-layout ol li::marker {
+  color: var(--epfl-rouge);
+}

@@ -26,9 +26,10 @@
     "colorSchema": "both",
     "defaults": {
       "fonts": {
-        "sans": "Nunito Sans",
+        "sans": "Arial",
         "mono": "Fira Code"
-      }
+      },
+      "layout": "default"
     }
   }
 }

@@ -1,24 +1,67 @@
+@import './epfl.css';
+
 :root {
   /* default theme color */
   /* can be overrided by uses `themeConfig` option */
-  --slidev-theme-primary: #5d8392;
+  /* --slidev-theme-primary: #5d8392; */
+  --slidev-theme-primary: var(--epfl-red);
 }
 
-.slidev-layout.cover,
-.slidev-layout.intro {
-  @apply h-full grid;
+/* Title */
+.slidev-layout h1 {
+  font-family: var(--epfl-heading-font);
+  /* font-size: 52.8px; /* 90% of 44pt (44pt = 58.7px) from Franklin Gothic */
+  /* font-weight: 600; */
+  @apply text-6xl font-semibold; /* Roughly 90% of 44pt, no tracking-tight? */
 
-  h1 {
-    @apply text-6xl leading-20;
-  }
+}
 
-  h1 + p {
-    @apply -mt-2 opacity-50 mb-4;
-  }
+/* Slide titles */
+.slidev-layout h2 {
+  font-family: var(--epfl-heading-font);
+  /* font-size: 38.4px; /* 90% of 32pt (32pt = 42.7px) from Franklin Gothic */
+  /* font-weight: 600; */
+  @apply text-4xl font-semibold; /* Roughly 90% of 32pt, no tracking-tight? */
+  @apply mb-28;                  /* Roughly two empty lines at the bottom */
+}
 
-  p + h2,
-  ul + h2,
-  table + h2 {
-    @apply mt-10;
-  }
+/* EPFL logo, meta, etc */
+.epfl-persistent {
+  z-index: 10;
+}
+
+/* Unordered and ordered list blocks */
+.slidev-layout ul,
+.slidev-layout ol {
+  @apply mt-20 mb-10;
+}
+
+/* Unordered and ordered list items */
+.slidev-layout ul li,
+.slidev-layout ol li {
+  color: var(--epfl-text-color);
+  font-family: var(--epfl-main-font);
+  @apply text-2xl mb-2 mt-0.1;
+  line-height: 1.1;
+}
+
+/* Click transitions */
+.epfl-fade-clicks > li {
+  @apply transition-opacity duration-500 ease-in-out;
+}
+
+/* Reduce paragraphs line spacing */
+/* .slidev-layout p {
+  line-height: 3;
+} */
+
+/* Sections */
+.slidev-layout.section {
+  align-content: center; /* Not sure whether to keep this */
+}
+
+/* Section titles */
+.slidev-layout.section h2 {
+  @apply mt-0;
+  @apply mb-14 + !important;
 }
