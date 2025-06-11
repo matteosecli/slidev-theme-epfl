@@ -22,7 +22,7 @@
   /* font-size: 38.4px; /* 90% of 32pt (32pt = 42.7px) from Franklin Gothic */
   /* font-weight: 600; */
   @apply text-4xl font-semibold; /* Roughly 90% of 32pt, no tracking-tight? */
-  @apply mb-28;                  /* Roughly two empty lines at the bottom */
+  @apply mb-20;                  /* Roughly two empty lines at the bottom */
 }
 
 /* EPFL logo, meta, etc */
@@ -33,7 +33,12 @@
 /* Unordered and ordered list blocks */
 .slidev-layout ul,
 .slidev-layout ol {
-  @apply mt-20 mb-10;
+  @apply mt-4 mb-4;
+}
+
+.slidev-layout h2 + ul,
+.slidev-layout h2 + ol {
+  @apply pt-8;
 }
 
 /* Unordered and ordered list items */

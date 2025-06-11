@@ -178,15 +178,7 @@ transition: slide-up
 
 ## Conclusions
 
-<v-clicks class="epfl-fade-clicks">
-
-- Conclusion One
-- Conclusion Two
-- Conclusion Three
-
-</v-clicks>
-
-Try to click (using the code below:)
+You can uncover bullet points with the `epfl-fade-clicks` class (try to click to uncover).
 
 ```markdown
 <v-clicks class="epfl-fade-clicks">
@@ -197,6 +189,16 @@ Try to click (using the code below:)
 
 </v-clicks>
 ```
+
+<div class="h-[1rem]"/>
+
+<v-clicks class="epfl-fade-clicks">
+
+- Conclusion One
+- Conclusion Two
+- Conclusion Three
+
+</v-clicks>
 
 ---
 layout: image
