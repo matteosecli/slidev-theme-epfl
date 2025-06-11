@@ -1,6 +1,7 @@
 # slidev-theme-epfl
 
 <!-- [![NPM version](https://img.shields.io/npm/v/slidev-theme-epfl?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-epfl) -->
+[![Netlify Status](https://api.netlify.com/api/v1/badges/68f1a652-18ee-4f18-a1a9-d074150f29c6/deploy-status)](https://app.netlify.com/projects/slidev-theme-epfl/deploys)
 
 An EPFL theme for [Slidev](https://github.com/slidevjs/slidev).
 
