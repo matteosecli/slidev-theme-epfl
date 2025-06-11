@@ -69,6 +69,7 @@
 .slidev-layout.section h2 {
   @apply mt-0;
   @apply mb-14 + !important;
+  text-wrap: pretty;
 }
 
 /* Blockquotes */
