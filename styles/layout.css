@@ -4,7 +4,7 @@
   /* default theme color */
   /* can be overrided by uses `themeConfig` option */
   /* --slidev-theme-primary: #5d8392; */
-  --slidev-theme-primary: var(--epfl-red);
+  --slidev-theme-primary: var(--epfl-rouge);
 }
 
 /* Title */
@@ -69,4 +69,14 @@
 .slidev-layout.section h2 {
   @apply mt-0;
   @apply mb-14 + !important;
+}
+
+/* Blockquotes */
+.slidev-layout blockquote {
+  @apply text-base;
+  @apply italic;
+  color: var(--epfl-text-color);
+  font-family: var(--epfl-main-font);
+  border-left-width: 4px;
+  border-radius: 0px;
 }
