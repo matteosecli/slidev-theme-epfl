@@ -1,5 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Oswald:wght@200..700&display=swap');
 
 :root {
   /* Formal colors */
@@ -24,9 +23,8 @@
   --epfl-ardoise: #453a4c;     /* Ardoise */
 
   /* Fonts */
-  --epfl-main-font: Arial, sans-serif;               /* Body */
-  /*--epfl-heading-font: 'Libre Franklin', sans-serif;*/ /* Titles */
-  --epfl-heading-font: 'Oswald', sans-serif;         /* Titles */
+  --epfl-main-font: 'Arial', 'Noto Color Emoji', sans-serif; /* Body */
+  --epfl-heading-font: 'Oswald', sans-serif;                 /* Titles */
 }
 
 /* Set the default font */
