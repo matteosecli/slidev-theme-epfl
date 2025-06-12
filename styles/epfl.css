@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Oswald:wght@200..700&display=swap');
+/* TODO: Replace Google Fonts with self-hosted fonts (https://fynn.be/blog/slidev-self-hosted-fonts/)
+         Oswald is available at @fontsource: https://www.npmjs.com/package/@fontsource/oswald */
 
 :root {
   /* Formal colors */
@@ -23,8 +25,10 @@
   --epfl-ardoise: #453a4c;     /* Ardoise */
 
   /* Fonts */
-  --epfl-main-font: 'Arial', 'Noto Color Emoji', sans-serif; /* Body */
-  --epfl-heading-font: 'Oswald', sans-serif;                 /* Titles */
+  --epfl-main-font: "Suisse Int'l Light", "Arial", "Noto Color Emoji", sans-serif; /* Body */
+  --epfl-heading-font: "Oswald", "Arial Narrow", sans-serif;                       /* Titles */
+  /* Note: For Franklin Gothic as below, we would have to adjust the font size (make it slightly bigger) */
+  /* "FranklinGothic URW Cond", "Franklin Gothic Medium Cond", "ITCFranklinGothic LT Pro" */
 }
 
 /* Set the default font */
