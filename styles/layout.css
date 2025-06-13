@@ -59,8 +59,24 @@
 }
 
 /* Click transitions */
-.epfl-fade-clicks > li {
+.slidev-vclick-target {
+  @apply transition-opacity duration-250 ease-in-out;
+}
+ 
+/* Click transitions: extra values */
+.slidev-vclick-target.epfl-fade-click-500 {
   @apply transition-opacity duration-500 ease-in-out;
+}
+.slidev-vclick-target.epfl-fade-click-750 {
+  @apply transition-opacity duration-750 ease-in-out;
+}
+.slidev-vclick-target.epfl-fade-click-1000 {
+  @apply transition-opacity duration-1000 ease-in-out;
+}
+
+/* Click transitions for list items */
+.epfl-fade-clicks > li {
+  @apply slidev-vclick-target;
 }
 
 /* Reduce paragraphs line spacing */
